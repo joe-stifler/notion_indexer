@@ -9,5 +9,13 @@ setup(
     description="A simple notion indexer.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/joe-stifler/notion_indexer",
+    url="https://github.com/joe-stifler/notion_indexer",,
+    zip_safe=True,
+    license='MIT',
+    include_package_data=True,
+    install_requires=[
+        'pandas',
+        'notion-client',
+        'scikit-learn',
+    ],
 )
