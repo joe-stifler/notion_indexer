@@ -66,7 +66,7 @@ print(df)
 
 You can filter and sort the results when querying databases:
 
-```json
+```python
 filter = {
     "property": "Date",
     "date": {
