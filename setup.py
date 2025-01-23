@@ -14,8 +14,8 @@ setup(
     license='MIT',
     include_package_data=True,
     install_requires=[
-        'pandas',
-        'notion-client',
-        'scikit-learn',
+        'pydantic===2.7.1',
+        'pandas===2.2.2',
+        'notion-client===2.2.1',
     ],
 )
